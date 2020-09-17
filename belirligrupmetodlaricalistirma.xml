@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - Test Grupları">
+    <test name="grubu 'grup metod' testler">
+        <groups>
+            <run>
+                <include name="grup metod"></include>
+
+            </run>
+        </groups>
+        <packages>
+            <package name=".*"></package>
+        </packages>
+
+    </test>
+</suite>

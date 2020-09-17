@@ -14,7 +14,7 @@ public class WalmartPage {
     @FindBy (id = "global-search-input")
     public WebElement walmartAramaKutusu;
 
-    @FindBy (xpath = "//span[@class='g_b']")
+    @FindBy (xpath = "//button[@class='g_a a8_e GlobalHeaderSearchbar-submit g_c']")
     public WebElement walmartSearchButonu;
 
 

@@ -7,7 +7,7 @@ import team02.utilities.Driver;
 
 public class GoogleSmokeTest {
 
-    @Test
+    @Test (groups = {"grup metod" } )
     public void test01(){
         Driver.getDriver().get(ConfigurationReader.getProperty("googleUrl"));
     }

@@ -13,7 +13,7 @@ import java.util.List;
 
 public class EbaySmokeTest {
 
-    @Test
+    @Test (groups = {"grup metod" } )
     public void test01 (){
         Driver.getDriver().get(ConfigurationReader.getProperty("ebayUrl"));
         EbayPage ebayPage = new EbayPage();
